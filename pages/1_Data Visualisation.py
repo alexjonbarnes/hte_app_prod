@@ -48,7 +48,7 @@ with tab1:
 
     st.sidebar.markdown("---")
 
-    compounds_pie = [x for x in headings if "%" in x]
+    compounds_pie = [x for x in headings if "% Area" in x]
 
     colour_labels = [
         "Product 1", "Product 2", "SM 1", "SM 2",
